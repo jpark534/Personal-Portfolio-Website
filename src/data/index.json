@@ -3,26 +3,63 @@
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "LALALALLALALALALALLALA. blah blah blah Lorem ipsum dolor sit."
+      "title": "Programming Languages",
+      "description": "C++, Swift, Python, Javascript"
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "LALALALLALALALALALLALA. blah blah blah Lorem ipsum dolor sit."
+      "title": "Productivity/Design Software",
+      "description": "Microsoft Office Suite, G Suite, AutoCAD, Canva, Figma"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "WeAttire iOS App",
+      "description": "An iOS app that displayed what you should wear based on the weather circumstances. Built with Swift and SwiftUI framework. Using API's and handled collecting/requesting location of user.",
+      "link": "View in Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Personal Portfolio Website",
+      "description": "A personal website showcasing my skills, projects and experiences. This was developed using HTML, Javascript, CSS with React JS",
+      "link": "View in Github"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "LALALALLALALALALALLALA. blah blah blah Lorem ipsum dolor sit."
+      "src": "./img/placeholder-image-2.png",
+      "title": "Arduino Line Following Car",
+      "description": "A Car that followed a black line with curves, tight turns, and blank spots. Built with sensors, buzzers, LEDs, motors, arduino board and coded in Ardunio programming language. Designed it as Lightning McQueen ⚡️",
+      "link": "View in Github"
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Two-month co-op placement at OWH X Apple Canada\n📏- Gained hands-on experience in developing an iOS app from conception to launch, working alongside experienced Apple mentors and designers.\n📖 - Mentored by the OWH team to gather requirements, design user interfaces, and implement features.\n🌧 - Developed a personalized weather app using the Swift programming language with the SwiftUI framework for the user interface.",
+      "author_name": "iOS Developer",
+      "author_designation": "Our Wave Hub X Apple Canada Inc"
     },
     {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "LALALALLALALALALALLALA. blah blah blah Lorem ipsum dolor sit."
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Two Years as a Crew Trainer at MillCreek McDonalds 🤝 - Greeting customers and handled payments via a POS system, fulfilling over 1500+ orders per shift.\n⌛️ - Worked with my team to maintain smooth operations and high standards of customer service during high-volume rushes.\n🔅 - Mentoring crew members and fostering a positive learning environment.",
+      "author_name": "Crew Trainer",
+      "author_designation": "McDonald's"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's "
     }
   ]
 }

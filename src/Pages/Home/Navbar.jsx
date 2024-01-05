@@ -15,7 +15,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closemenu
+        closemenu;
       }
     };
 
@@ -34,7 +34,7 @@ function Navbar() {
   return( 
     <nav className={`navbar ${navActive ? "active": ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <img src="./logo.png" alt="Julia Park" />
       </div>
       <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick = {toggleNav}>
         <span className="nav__hamburger__line">
@@ -66,10 +66,10 @@ function Navbar() {
             smooth={true}
             offset={-70}
             duration={500}
-            to="MyPortfolio"
+            to="mySkills"
             className="navbar--content"
             >
-              Portfolio
+              My Skills
               </Link>
           </li>
           <li>
@@ -85,19 +85,37 @@ function Navbar() {
               About Me
               </Link>
           </li>
-          
-        </ul>
-      </div>
-      <Link onClick={closemenu}
+          <li>
+            <Link onClick={closemenu}
             activeClass="navbar--active-content"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
-            to="Contact"
-            className="btn btn-outline-primary"
-            > Contact Me 
+            to="MyPortfolio"
+            className="navbar--content"
+            >
+              Portfolio
+              </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closemenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="experience"
+              className="navbar--content"
+            >
+              Experiences
             </Link>
+          </li>
+          
+          
+        </ul>
+      </div>
     </nav>
 
   );
