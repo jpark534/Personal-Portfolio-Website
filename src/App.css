@@ -620,7 +620,7 @@ h3 {
     align-items: center;
   }
   .portfolio--container-box {
-    gap: 30px;
+    gap: 10px;
   }
   .skills--section,
   .experience--section,
@@ -630,9 +630,10 @@ h3 {
     padding-bottom: 70px;
   }
   .about--section {
-    gap: 20px;
+    gap: 5px;
     padding-top: 0;
     padding-bottom: 0;
+    font-size: 26px;
   }
   .experience--section--card {
     padding: 25px;
@@ -640,7 +641,7 @@ h3 {
   .hero--section--title,
   .skills--section--heading,
   .sections--heading {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 40px;
   }
   .hero--section--content--box {
