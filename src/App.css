@@ -24,7 +24,7 @@ p {
   --primary: #4855cd;
   --heading-color: #282938;
   --bg-shade: #f5fcff;
-  --github: #ebe766;
+  --github: #b166eb;
   --darkblue: #1c1e53;
   --black: #000000;
   --white: #ffffff;
@@ -567,7 +567,7 @@ h3 {
 
 @media only screen and (max-width: 1600px) {
   .skills--section--heading {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 70px;
   }
   .skills--section--container {
@@ -592,6 +592,10 @@ h3 {
 @media only screen and (max-width: 1200px) {
   .btn-outline-primary {
     display: none;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 67px;
   }
   .hero--section {
     display: flex;
