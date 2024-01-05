@@ -608,6 +608,7 @@ h3 {
   
   }
   p {
+    padding-top: 15px;
     font-size: 18px;
   }
   .hero--section {
@@ -621,7 +622,7 @@ h3 {
     text-align: center;
   }
   .hero--section--title{
-    font-size: 37px;
+    font-size: 40px;
     line-height: 40px;
   }
   .skills--section--container,
@@ -635,7 +636,10 @@ h3 {
     flex-direction: column;
   }
   .portfolio--section--container{
-    margin: 4px;
+    margin: 10px 4px;
+  }
+  .portfolio--section--card{
+    margin: 10px 4px;
   }
 
   .skills--section,
