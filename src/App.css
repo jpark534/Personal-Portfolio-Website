@@ -415,7 +415,7 @@ h3 {
 }
 .portfolio--section--card {
   display: grid;
-  padding: 133.3px 85.3px;
+  padding: 50px 30px;
   align-items: center;
   gap: 32px;
   flex: 1 0 0;
@@ -427,7 +427,7 @@ h3 {
 }
 .portfolio--section--card--content {
   display: flex;
-  padding: 32px;
+  padding: 2px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -617,7 +617,10 @@ h3 {
   .footer--content {
     text-align: center;
   }
-  
+  .hero--section--title{
+    font-size: 39;
+    line-height: 40px;
+  }
   .skills--section--container,
   .about--section,
   .portfolio--section--container,
@@ -655,10 +658,9 @@ h3 {
   .experience--section--card {
     padding: 25px;
   }
-  .hero--section--title,
   .skills--section--heading,
   .sections--heading {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
   }
   .hero--section--content--box {
