@@ -151,7 +151,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Julia</p>
+
       </div>
     </footer>
   );
