@@ -2,9 +2,9 @@
 
 body {
   margin: 0;
-  font-family: "Futura", "sans-serif";
-  -webkit-font-smoothing: "Futura", "sans-serif";
-  -moz-osx-font-smoothing: "Apparel", "sans-serif";
+  font-family: "Roboto", "sans-serif";
+  -webkit-font-smoothing: "Roboto", "sans-serif";
+  -moz-osx-font-smoothing: "Roboto", "sans-serif";
   font-style: normal;
 }
 
@@ -35,7 +35,7 @@ p {
 }
 
 .btn {
-  font-family: "Futura";
+  font-family: "Roboto";
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -102,23 +102,18 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
-
 }
-
-/*Heading 2*/
+/* Heading 2 */
 h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
-
 }
-
-/*Heading 3*/
-h3 {
+/* Heading 3 */
+h2 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 34px;
-
 }
 
 /*Paragraphs text large medium small */
@@ -131,17 +126,15 @@ h3 {
   font-weight: 400;
   line-height: 27px;
 }
-
-/*Body 2 */
+/* Body 2 */
 .text-md {
   color: var(--darkblue);
-  font-size: 23px;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 24px;
 }
-
-/*Body 3 */
+/* Body 3 */
 .text-sm {
   color: var(--black);
   font-size: 14px;
@@ -152,56 +145,50 @@ h3 {
 
 /* Section Titles*/
 /* Skills & About Me */
-
 .section--title {
   color: var(--heading-color);
-  font-size:  40px;
+  font-size: 21px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
   display: flex;
-  align-items:  flex-start;
-
+  align-items: flex-start;
 }
-/*Portfolio, Experience */
-
+/* Portfolio, Experience & Contact Me */
 .sub--title {
   color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-
 }
-
 /* Section Titles Ends */
 
-/*NavBar Style Start*/
+
+/* Navbar Style Start */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 85.333px;
-  background:var(--white);
-  box-shadow: 0px 5.333px 80px 0 rgba(0,0,0,0.1);
+  background: var(--white);
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
-  right:0;
+  right: 0;
 }
-
 .navbar--items > ul {
-  list-style:  none;
+  list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 30px;
+  gap: 42.667px;
   text-decoration: none;
 }
-.navbar--items ul> li > a {
+.navbar--items ul > li > a {
   text-decoration: none;
-
 }
-/* navbar Content*/
+/* Navbar Content */
 .navbar--content {
   color: var(--darkblue);
   font-size: 16px;
@@ -210,14 +197,13 @@ h3 {
   line-height: 24px;
   cursor: pointer;
 }
-
 .navbar--active-content {
   color: var(--primary);
 }
-/* navbar style ends */
+/* Navbar Styler Ends */
+
 
 /* Hero Section Style */
-
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -226,27 +212,22 @@ h3 {
   justify-content: space-between;
   gap: 32px;
   background-color: var(--bg-shade);
-
 }
-
-.hero--section--content-box{
+.hero--section--content-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
 }
-
-.hero--section--content{
+.hero--section--content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 21.333px;
 }
-
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
-
 .hero--section--title {
   color: var(--heading-color);
   font-size: 74.667px;
@@ -254,18 +235,15 @@ h3 {
   line-height: 90px;
   align-self: stretch;
 }
-
 .hero--section--title--color {
   color: var(--primary);
-
 }
-.hero--section-descriptioin {
+.hero--section-description {
   color: var(--darkblue);
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
 }
-
 .hero--section--img {
   display: flex;
 }
@@ -273,38 +251,34 @@ h3 {
   width: 100%;
   height: 100%;
 }
-/*Hero Section Style ends */
+/* Hero Section Style Ends */
 
-/* Skills Section Style*/
-
+/* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 70px 85.33px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.6667px;
+  gap: 106.667px;
 }
-
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
-
 }
 .skills--section--container {
   display: grid;
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-
-.skills--section--card{
-  display:flex;
-  padding: 32px;
-  flex-direction:column;
+.skills--section--card {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
@@ -312,26 +286,22 @@ h3 {
   background: var(--bg-shade);
   min-height: 250px;
 }
-
-.skills--section--card:hover{
-  border-bottom:4px solid var(--primary);
+.skills--section--card:hover {
+  border-bottom: 4px solid var(--primary);
 }
-.skills--section--card:hover .skills--section--description{
-  color:var(--darkblue);
+.skills--section--card:hover .skills--section--description {
+  color: var(--darkblue);
 }
-
-.skills--section--img{
-  display:flex;
+.skills--section--img {
+  display: flex;
   padding: 13.3px;
   justify-content: center;
   align-items: center;
   gap: 13.3px;
   border-radius: 10.6px;
   background: #fff;
-  box-shadow:0 0 16px 0 rgba(0, 0, 0, 0.1);
-
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
-
 .skills--section--card--content {
   display: flex;
   flex-direction: column;
@@ -339,24 +309,23 @@ h3 {
   gap: 32px;
   align-self: stretch;
 }
-
-.skills--section--title{
+.skills--section--title {
   color: var(--heading-color);
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
-
 }
-.skills--section--description{
+.skills--section--description {
   color: var(--black);
-  font-size: 27px;
+  font-size: 21.3px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
 }
-/*skills styles end*/
+/* Skills Style Ends */
 
-/* About Us*/
+
+/* About Us */
 .about--section {
   display: grid;
   padding: 133.3px 85.3px;
@@ -367,18 +336,8 @@ h3 {
 .about--section--img > img {
   width: 100%;
   height: 100%;
-
 }
-.about--section--box{
-  color: var(--black);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-
-}
-/* About End*/
-
+/* About Us Ends */
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
@@ -414,9 +373,9 @@ h3 {
   width: 100%;
 }
 .portfolio--section--card {
-  display: grid;
-  padding: 50px 30px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
   background: #fff;
@@ -427,7 +386,7 @@ h3 {
 }
 .portfolio--section--card--content {
   display: flex;
-  padding: 2px;
+  padding: 32px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -435,9 +394,6 @@ h3 {
 }
 .portfolio--section--title {
   color: var(--heading-color);
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 45px;
 }
 .portfolio--link {
   text-decoration: none;
