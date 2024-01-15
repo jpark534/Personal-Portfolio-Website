@@ -9,7 +9,7 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+          <a className="btn btn-github" href="https://github.com/jpark534">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -24,8 +24,8 @@ export default function MyPortfolio() {
                 fill="currentColor"
               />
             </svg>
-            Visit My GitHub
-          </button>
+              Visit My Github
+          </a>
         </div>
       </div>
       <div className="portfolio--section--container">

@@ -442,15 +442,15 @@ h2 {
 }
 .experience--author--name {
   font-weight: 600;
-  font-size: 35px;
   color: var(--heading-color);
 }
 .experience--author--designation {
   color: var(--darkblue);
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 150%;
 }
+/* Testimonial Ends */
 
 
 /*footer start*/ 
