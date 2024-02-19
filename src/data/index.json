@@ -4,13 +4,25 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Programming Languages",
-      "description": "C++, Swift, Python, Javascript"
+      "description": "C++, Python, HTML, Javascript, CSS, Swift"
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Productivity/Design Software",
-      "description": "Microsoft Office Suite, G Suite, AutoCAD, Canva, Figma"
+      "description": "Microsoft Office Suite, G Suite, AutoCAD, Canva"
+    },
+    {
+      "id": "3",
+      "src": "./img/tag-2.png",
+      "title": "Framework/ Libraries",
+      "description": "Swift UI, Flask, React.js, p5.js, Node.js"
+    },
+    {
+      "id": "4",
+      "src": "./img/tag-3.png",
+      "title": "Languages",
+      "description": "Korean & English"
     }
   ],
   "portfolio": [
