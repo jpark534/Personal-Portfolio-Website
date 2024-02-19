@@ -41,7 +41,7 @@
       "id": "1",
       "count": "5",
       "src": "./img/avatar-image.png",
-      "description": "Two-month co-op placement at OWH X Apple Canada\n📏- Gained hands-on experience in developing an iOS app from conception to launch, working alongside experienced Apple mentors and designers.\n📖 - Mentored by the OWH team to gather requirements, design user interfaces, and implement features.\n🌧 - Developed a personalized weather app using the Swift programming language with the SwiftUI framework for the user interface.",
+      "description": "Two-month co-op placement at OWH X Apple Canada 🍎",
       "author_name": "iOS Developer",
       "author_designation": "Our Wave Hub X Apple Canada Inc"
     },
@@ -49,7 +49,7 @@
       "id": "2",
       "count": "5",
       "src": "./img/avatar-image-1.png",
-      "description": "Two Years as a Crew Trainer at MillCreek McDonalds 🤝 - Greeting customers and handled payments via a POS system, fulfilling over 1500+ orders per shift.\n⌛️ - Worked with my team to maintain smooth operations and high standards of customer service during high-volume rushes.\n🔅 - Mentoring crew members and fostering a positive learning environment.",
+      "description": "Two Years as a Crew Trainer at MillCreek McDonalds 🤝 ",
       "author_name": "Crew Trainer",
       "author_designation": "McDonald's"
     },
@@ -57,7 +57,7 @@
       "id": "3",
       "count": "5",
       "src": "./img/avatar-image-2.png",
-      "description": "Four Years as Tech Team Coordinator - Maintained presentation slides utilizing software such as PowerPoint, Google Slides, and ProPresenter during service",
+      "description": "Four Years as Tech Team Coordinator 🖥",
       "author_name": "Tech Team Coordinator",
       "author_designation": "Westside Presbyterian Church"
     }
