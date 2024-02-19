@@ -18,22 +18,22 @@
       "id": "1",
       "src": "./img/placeholder-image.png",
       "title": "WeAttire iOS App",
-      "description": "An iOS app that displayed what you should wear based on the weather circumstances. Built with Swift and SwiftUI framework. Using API's and handled collecting/requesting location of user.",
-      "link": "View in Github"
+      "description": "An iOS app that displayed what you should wear based on the weather circumstances. Built with Swift and SwiftUI framework. Using API's and handled collecting/requesting location of user."
+      
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
       "title": "Personal Portfolio Website",
-      "description": "A personal website showcasing my skills, projects and experiences. This was developed using HTML, Javascript, CSS with React.js",
-      "link": "View in Github"
+      "description": "A personal website showcasing my skills, projects and experiences. This was developed using HTML, Javascript, CSS with React.js"
+      
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
       "title": "Arduino Line Following Car",
-      "description": "A Car that followed a black line with curves, tight turns, and blank spots. Built with sensors, buzzers, LEDs, motors, arduino board and coded in Ardunio programming language. Designed it as Lightning McQueen ⚡️",
-      "link": "View in Github"
+      "description": "A Car that followed a black line with curves, tight turns, and blank spots. Built with sensors, buzzers, LEDs, motors, arduino board and coded in Ardunio programming language. Designed it as Lightning McQueen ⚡️"
+      
     }
   ],
   "experience": [
@@ -57,7 +57,7 @@
       "id": "3",
       "count": "5",
       "src": "./img/avatar-image-2.png",
-      "description": "Four Years as Tech Team Coordinator 🖥",
+      "description": "Four Years as Lead Tech Team Coordinator for Sunday Service Tech team 🖥",
       "author_name": "Tech Team Coordinator",
       "author_designation": "Westside Presbyterian Church"
     }
